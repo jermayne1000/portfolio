@@ -129,6 +129,24 @@ footer {
 }
 /* a wrapper around all the actual page content
     this will be centered on the page*/
+html {
+    box-sizing: border-box;
+}
+html.not-top {
+    display: none;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/*the entire body of the html page*/
+body {
+    margin: 0;
+    background: #669966;
+}
+/* a wrapper around all the actual page content
+    this will be centered on the page*/
 #page {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
