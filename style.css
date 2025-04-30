@@ -159,7 +159,7 @@ body {
 
     margin: 3px auto;
     width: calc(100% - 10px);
-    max-width: 1000px;
+
     min-height: 90vh;
 
     background: rgba(255, 255, 255, 0.75);
