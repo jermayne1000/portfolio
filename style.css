@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+nav ul {
+    list-style-type: rectangle;
+}
+nav ul li::marker {
+    color: orange;
+}
+
+header {
+    background-color: #FF00FF;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    width: calc(70% - 1px);
+    float: left;
+    padding: 1rem;
+    border-right: 1px solid black;
+}
+
+aside {
+    width: 20%;
+    float: right;
+}
+
+footer {
+    clear: both;
+    background-color: #FF00FF;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
